@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Simulation-based multi-fillet evaluation of woody breast poultry fillets.">
+  <meta name="keywords" content="computer vision, simulation, digital twin, industrial automation, poultry">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulation-Based Multi-Fillet Evaluation <br /> of Woody Breast Poultry Fillets</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6W91P2LCBQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6W91P2LCBQ');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Simulation-Based Multi-Fillet Evaluation <br/> of Woody Breast Poultry Fillets</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"> Chirantan Sen Mukherjee<sup>1</sup>, Seung-Chul Yoon<sup>2</sup>, and <a href="https://ranger.uta.edu/~wjbeksi">William J. Beksi<sup>1</sup></a></span>
+          </div>
+          <div class="is-size-5 publication-institutes">
+            <span class="institute-block">
+              The University of Texas at Arlington<sup>1</sup>, <a href="https://rvl.uta.edu">Robotic Vision Laboratory</a><br>
+              Quality and Safety Assessment Research Unit, U.S. National Poultry Research Center, USDA ARS<sup>2</sup><br>
+            </span>
+          </div>
+          <div class="column is-centered">
+            <div class="publication-links">
+              <!-- Paper link -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Preprint link -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Preprint</span>
+                </a>
+              </span>
+              <!-- Source code link -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Source Code</span>
+                </a>
+              </span>
+              <!-- Dataset link -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop" id="Demonstration">
+      <div class="item video_1">
+        <video id="raw" autoplay controls muted loop playsinline width="1024" height="768">
+          <source src="./static/videos/video_1.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop" id="Abstract">
+    <div class="columns is-centered">
+      <!-- Abstract -->
+      <div class="column is-full-width">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Woody breast (WB) is a myopathy in modern broiler chickens that
+            causes the breast muscle to become unusually stiff and fibrous,
+            leading to decreased meat quality and significant economic losses.
+            State-of-the-art automated WB detection relies on a side-view
+            imaging system to analyze the bending behavior of a single fillet
+            as it falls off a conveyor belt. While highly accurate, this
+            approach is constrained by its single-fillet field of view,
+            creating throughput bottlenecks on commercial processing lines. In
+            this paper, we address this limitation via a novel multi-fillet
+            detection architecture utilizing a top-down camera configuration.
+            To validate our approach, we first develop a high-fidelity digital
+            twin of an industrial conveyor system. Next, we synthesize a
+            diverse dataset of 3D fillet meshes and model their viscoelastic
+            bending dynamics using a physics-based simulation engine. Lastly, a
+            continuous 2D shape deformation score is extracted from the
+            top-down perspective as the simulated fillets traverse the roller
+            precipice. Experimental results demonstrate that the top-down
+            shape score effectively captures the contour changes of the fillets
+            as it bends, providing a robust and scalable alternative to a
+            side-view imaging system for simultaneous multi-fillet WB
+            evaluation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="container is-max-desktop" id="Dataset">
+    <div class="columns is-centered">
+      <!-- Dataset -->
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            The <strong>Woody-Breast-Sim</strong> dataset consists of 1,000
+            synthetic 3D meshes that capture the natural variance of poultry
+            fillets. These 3D models are generated by first synthesizing 2D
+            depth maps using the modified generative adversarial network
+            architecture, which are subsequently reconstructed into volumetric
+            3D meshes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="container is-max-desktop content" id="Citation">
+    <!-- Citation -->
+    <h2 class="title is-3">Citation</h2>
+    <p>
+      If you find this project useful, then please consider citing both our
+      paper and dataset.
+    </p>
+    <pre><code>@inproceedings{mukherjee2026simulation,
+  title={Simulation-based multi-fillet evaluation of woody breast poultry fillets},
+  author={Sen Mukherjee, Chirantan and Yoon, Seung-Chul and Beksi, William J},
+  booktitle={Proceedings of the IEEE International Conference on Automation Science and Engineering (CASE)},
+  pages={},
+  year={2026}
+}</code></pre>
+    <pre><code>@data{mavmatrix/dataset.2026.xx.xxx,
+  title={{Woody-Breast-Sim}},
+  author={Sen Mukherjee, Chirantan and Yoon, Seung-Chul and Beksi, William J},
+  publisher={MavMatrix},
+  version={V1},
+  url={},
+  doi={},
+  year={2026}
+}</code></pre>
+  </div>
+  <br>
+
+  <div class="container is-max-desktop" id="License">
+    <div class="columns is-centered">
+      <!-- License-->
+      <div class="column is-full-width">
+        <h2 class="title is-3">License</h2>
+        <div class="content has-text-justified">
+          <p>
+            The source code associated with this project is licensed under the 
+            <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.  
+            The <strong>Woody-Breast-Sim</strong> dataset is available for non-commercial use under the 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ("CC BY-NC-SA 4.0")</a>. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
+            This means you are free to borrow the 
+            <a href="https://github.com/robotic-vision-lab/citdet">source code</a>
+            of this website, we just ask that you link back to this page in the
+            footer. Please remember to remove the analytics code included in
+            the header of this website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
